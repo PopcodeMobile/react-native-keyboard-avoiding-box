@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-avoiding-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A no hassle solution for handling elements spacing when the keyboard shows up",
   "main": "dist/index.js",
   "react-native": "dist/index.js",
