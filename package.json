@@ -3,19 +3,18 @@
   "version": "0.1.0",
   "description": "A no hassle solution for handling elements spacing when the keyboard shows up",
   "main": "dist/index.js",
+  "react-native": "dist/index.js",
   "repository": "https://github.com/PopcodeMobile/react-native-keyboard-avoiding-box.git",
   "author": "Eduardo Macêdo <eduardojuniodev@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.60.3"
+    "react-native": "^0.58.5"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-react-native": "^4.0.1",
+    "@babel/cli": "^7.5.0",
     "flow-bin": "^0.102.0",
     "husky": "^3.0.0",
+    "metro-react-native-babel-preset": "^0.55.0",
     "react-native": "^0.60.3"
   },
   "husky": {

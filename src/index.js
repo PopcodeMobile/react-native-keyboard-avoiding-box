@@ -1,8 +1,3 @@
 // @flow
-import KeyboardAvoidingBox from './KeyboardAvoidingBox'
-import Spring from './Spring'
-
-export default {
-  KeyboardAvoidingBox,
-  Spring
-}
+export { default as KeyboardAvoidingBox } from './KeyboardAvoidingBox'
+export { default as Spring } from './Spring'
