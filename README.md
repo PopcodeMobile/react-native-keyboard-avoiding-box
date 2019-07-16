@@ -21,6 +21,8 @@ $ npm install --save react-native-keyboard-avoiding-box
 ## Quick Start
 
 ```JSX
+import { KeyboardAvoidingBox, Spring } from 'react-native-keyboard-avoiding-box'
+
 class LoginScreen extends React.Component<Props> {
   render () {
     return (
