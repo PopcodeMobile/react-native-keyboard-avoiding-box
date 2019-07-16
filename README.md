@@ -20,7 +20,7 @@ $ npm install --save react-native-keyboard-avoiding-box
 
 ## Quick Start
 
-```js
+```JSX
 class LoginScreen extends React.Component<Props> {
   render () {
     return (
@@ -46,7 +46,7 @@ Container component responsible for adjusting it's height when the keyboard appe
 
 Basic usage look like this:
 
-```js
+```JSX
 <KeyboardAvoidingBox minHeight={80}>
   <Spring force={1} />
   <Logo />
